@@ -1,5 +1,4 @@
-# ngx-event-modifiers
-## Event Modifiers for Angular Applications (inspired by Vue)
+# Event Modifiers for Angular Applications (inspired by Vue)
 
 ### Installation
 
@@ -19,7 +18,7 @@ import { EventModifiersModule } from 'ngx-event-modifiers';
 export class AppModule { }
 ```
 
-#### Usage
+### Usage
 - `(click.stop)` - The click event's propagation will be stopped
 ```html
   <button (click.stop)="onClick($event, extraData)">Click Me!!</button>
