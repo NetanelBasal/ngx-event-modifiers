@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/NetanelBasal/ngx-event-modifiers.svg?branch=master)](https://travis-ci.org/NetanelBasal/ngx-event-modifiers)
 ## Event Modifiers for Angular Applications (inspired by Vue)
 
 ### Installation
