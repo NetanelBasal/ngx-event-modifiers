@@ -1,0 +1,78 @@
+{
+  "name": "ngx-event-modifiers",
+  "description": "Event Modifiers for Angular Applications",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp build",
+    "build:watch": "gulp",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --runInBand"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupTestFrameworkScriptFile": "<rootDir>/src/jest.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NetanelBasal/ngx-event-modifiers"
+  },
+  "author": {
+    "name": "Netanel Basal",
+    "email": "netanel7799@gmail.com"
+  },
+  "keywords": [
+    "Angular events",
+    "Angular directives events",
+    "StopPropagation",
+    "PreventDefault",
+    "Once",
+    "Outside event"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NetanelBasal/ngx-event-modifiers/issues"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@compodoc/compodoc": "^1.0.0-beta.10",
+    "@types/jest": "^19.2.4",
+    "@types/node": "~6.0.60",
+    "angular-in-memory-web-api": "^0.3.2",
+    "codelyzer": "~2.0.0",
+    "concurrently": "^3.4.0",
+    "core-js": "^2.4.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^2.11.0",
+    "jest": "^20.0.3",
+    "jest-preset-angular": "^2.0.2",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.5.2",
+    "node-sass-tilde-importer": "^1.0.0",
+    "node-watch": "^0.5.2",
+    "protractor": "~5.1.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-commonjs": "^8.2.5",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "run-sequence": "^1.2.2",
+    "rxjs": "^5.1.0",
+    "systemjs": "^0.20.12",
+    "ts-node": "~2.0.0",
+    "tslint": "~4.5.0",
+    "typescript": "~2.2.0",
+    "zone.js": "^0.8.4"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "rollup-stream": "^1.24.1"
+  }
+}

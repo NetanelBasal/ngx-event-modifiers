@@ -1,0 +1,28 @@
+{
+  "name": "ngx-event-modifiers",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repo"
+  },
+  "author": {
+    "name": "Netanel Basal",
+    "email": "netanel7799@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/repo/issues"
+  },
+  "main": "ngx-event-modifiers.umd.js",
+  "module": "ngx-event-modifiers.js",
+  "jsnext:main": "ngx-event-modifiers.js",
+  "typings": "ngx-event-modifiers.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
