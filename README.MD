@@ -1,4 +1,4 @@
-# Event Modifiers for Angular Applications (inspired by Vue)
+## Event Modifiers for Angular Applications (inspired by Vue)
 
 ### Installation
 
