@@ -132,7 +132,7 @@ export class SelfDirective extends Cleaner {
   selector: '[click.once]'
 })
 export class ClickOnceDirective extends Cleaner {
-  @Output('click.once') preventDefaultEvent = new EventEmitter();
+  @Output('click.once') onceEvent = new EventEmitter();
 
   constructor( private _renderer : Renderer2, private _element : ElementRef ) {
     super();
@@ -141,7 +141,7 @@ export class ClickOnceDirective extends Cleaner {
   ngOnInit() {
     const eventFn = once(event => {
       _handleEvents(this.eventOptions, event);
-      this.preventDefaultEvent.emit(event);
+      this.onceEvent.emit(event);
     });
     this._unsubscribe = this._renderer.listen(this._element.nativeElement, 'click', eventFn);
   }
